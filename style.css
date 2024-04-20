@@ -25,10 +25,11 @@ body .section{
 
 .panel{
     /* background: fixed; */
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 80vh;
     border-radius: 30px;
     color: aliceblue;
     cursor: pointer;
