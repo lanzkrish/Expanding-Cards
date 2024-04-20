@@ -13,7 +13,7 @@ body .section{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     margin: 0;
 }
@@ -28,12 +28,12 @@ body .section{
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 50vh;
     border-radius: 30px;
     color: aliceblue;
     cursor: pointer;
     flex: 0.5;
-    margin: 10px;
+    margin: 5px;
     /* padding: 10px; */
     position: relative;
     transition: flex 0.7s ease-in-out;
