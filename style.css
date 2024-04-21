@@ -63,14 +63,41 @@ body .section{
     .container{
         width: 100vw;
     }
-    /* .body{
-        width: 100vw;
-    } */
+    
     .panel:nth-of-type(4), .panel:nth-of-type(5){
         display: none;
     }
+    .panel{
+    
+        background-size:cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40vh;
+        border-radius: 20px;
+        color: aliceblue;
+        cursor: pointer;
+        flex: 0.5;
+        margin: 5px;
+        /* padding: 10px; */
+        position: relative;
+        transition: flex 0.7s ease-in-out;
+    }
+
 }
 
+
+.noResponse{
+    color: aliceblue;
+    display: none;
+}
+@media(max-width: 300px){
+    .container{
+        display: none;
+    }
+    .noResponse{
+        display: flex;
+    }
+}
 i{
     font-family: sans-serif;
 }
