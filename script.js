@@ -1,6 +1,3 @@
-function expand(){
-
-}
 
 const panels =document.querySelectorAll('.panel');
 
